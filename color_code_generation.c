@@ -30,7 +30,7 @@ void print_reference_manual(void)
 {
     int i=0,j=0,pair_number = 1;
     printf(" Reference manual \n");
-    printf(" Pair number  Major Color  Minor Color \n");
+    printf(" Pair number    Major Color      Minor Color \n");
    
     for(i = 0; i< numberOfMajorColors; i++)
     {
