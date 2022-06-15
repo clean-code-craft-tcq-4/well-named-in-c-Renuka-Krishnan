@@ -24,3 +24,18 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
+
+void print_reference_manual(void)
+{
+    int i=0,j=0,pair_number = 1;
+    printf(" Reference manual \n");
+    printf(" Pair number  Major Color  Minor Color ");
+   
+    for(i = 0; i< numberOfMajorColors; i++)
+    {
+        for(j = 0; j < numberOfMinorColors; j++)
+        {
+            printf("   %d \t    %s\t  %s\t\n",pair_number++, majorColors[i], minorColors[j]);
+        }
+    } 
+}
