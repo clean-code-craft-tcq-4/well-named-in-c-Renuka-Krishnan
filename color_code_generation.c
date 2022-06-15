@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "color_code.h"
 #include "color_code_generation.h"
 
