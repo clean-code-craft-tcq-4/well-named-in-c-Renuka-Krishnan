@@ -1,5 +1,5 @@
 #include "color_code.h"
-#include "color_code_generation.c"
+#include "color_code_generation.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
