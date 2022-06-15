@@ -36,7 +36,7 @@ void print_reference_manual(void)
     {
         for(j = 0; j < numberOfMinorColors; j++)
         {
-            printf("   %d \t    %s\t  %s\t\n",pair_number++, MajorColorNames[i], MinorColorNames[j]);
+            printf(" %d\t  %s\t  %s\t\n",pair_number++, MajorColorNames[i], MinorColorNames[j]);
         }
     } 
 }
